@@ -2,14 +2,6 @@ import json
 import time
 import requests
 import streamlit as st
-import tkinter as tk
-
-root = tk.Tk() 
-background_image = tk.PhotoImage(file="background.png")
-background_label = tk.Label(root, image=background_image)
-background_label.place(relwidth=1, relheight=1)
-root.mainloop()
-
 
 st.set_page_config(
     page_title="Waranyoo Kunpinij Project",
